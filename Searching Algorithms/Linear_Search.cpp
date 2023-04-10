@@ -30,12 +30,11 @@ int linearSearch(int arr[], int n, int target) {
 // driver code
 int main() {
    
-    int n; //length of array
-    int k; //element to search 
-    int arr[n];  
-    
-    cin>>n>>k;  // take length of array and search elem in input from user
-
+   int n; //length of array
+   int k; //element to search 
+     
+   cin>>n>>k;  // take length of array and search elem in input from user
+   int arr[n];  
 //    take array elems as input
    for(int i = 0; i < n; i++ )  {
          cin>>arr[i];
